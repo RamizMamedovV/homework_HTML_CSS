@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav_link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.header_first {
+    color: #222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+/*.header_first_catalog {
+    list-style-type: none;
+}*/
+
+.header_second {
+    color: coral;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+.paragraph {
+    font-size: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #707987;
+}
+
+.img_style {
+    border-radius: 24px;
+}
+
+.form_input {
+    padding: 10px 30px;
+    width: 150px;
+    height: 20px;
+    outline: 1px solid #ccc;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.form_btn {
+    padding: 1px 1px;
+    width: 100px;
+    height: 20px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
