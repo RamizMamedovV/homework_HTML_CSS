@@ -1,0 +1,8 @@
+.list_style {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+h1{
+    font-weight: 100;
+}
