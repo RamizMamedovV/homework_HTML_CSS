@@ -7,49 +7,63 @@ a {
     text-decoration: none;
 }
 
-body {
-    background: #776d3e;
+.body {
+    background: #FFF;
 }
 
-.header {
-    margin-top: 30px;
-    padding-top: 20px;
+.home {
+    padding-top: 25px;
 }
 
-/* .header__mark {
-    margin-top: 25px;
-    margin-bottom: 25px;
+.menu__bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.header__nav {
-    margin-top: 31px;
-    margin-bottom: 31px;
-} */
+.m__bar__logo {
+    padding-top: 10px;
+    padding-bottom: 9px;
+}
+
+.m__bar__nav {
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
 
 .content {
-    margin-top: 50px;
-    padding-top: 30px;
+    padding-top: 60px;
+    padding-bottom: 162px;
 }
 
 .cont__title {
-    font-size: 60px;
+    /* font-size: 60px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: normal;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .cont__sub__title {
-    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    /*font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: normal;*/
+}
+
+.cont__text__button {
+    margin-top: 10px;
+    padding-top: 30px;
 }
 
 .but__start {
-    font-size: 15px;
+    margin: 7px;
+    /* font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: normal;*/
     border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
@@ -59,23 +73,23 @@ body {
 }
 
 .but__and__text {
+    margin: 15px;
     color: #AAA;
-    font-size: 15px;
+    /* font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: normal; */
     width: 90px;
     height: 19px;
     flex-shrink: 0;
 }
 
-.cont__png {
-    margin-top: 8px;
+.content__png {
+    margin-top: 20px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
 .brand__area {
     padding-top: 97px;
     padding-bottom: 97px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
