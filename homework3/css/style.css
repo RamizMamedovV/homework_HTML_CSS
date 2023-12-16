@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #776d3e;
+}
+
+.header {
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+/* .header__mark {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.header__nav {
+    margin-top: 31px;
+    margin-bottom: 31px;
+} */
+
+.content {
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+.cont__title {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cont__sub__title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.but__start {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.but__and__text {
+    color: #AAA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 90px;
+    height: 19px;
+    flex-shrink: 0;
+}
+
+.cont__png {
+    margin-top: 8px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.brand__area {
+    padding-top: 97px;
+    padding-bottom: 97px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
