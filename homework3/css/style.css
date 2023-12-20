@@ -1,95 +1,115 @@
 * {
     margin: 0;
     padding: 0;
+    border: none;
 }
 
 a {
     text-decoration: none;
 }
 
-.body {
-    background: #FFF;
+body {
+    background: #9d9898;
 }
 
-.home {
-    padding-top: 25px;
+.center {
+    padding-left: calc(50% - 1170px/2);
+    padding-right: calc(50% - 1170px/2);
 }
 
-.menu__bar {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.menu {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.m__bar__logo {
-    padding-top: 10px;
-    padding-bottom: 9px;
+.menu_logo_text {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.m__bar__nav {
-    padding-top: 16px;
-    padding-bottom: 15px;
+.menu_nav {
+    display: flex;
+    gap: 34px;
+    align-items: center;
 }
+
+.menu_nav_link {
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
+    gap: 40px;
+}
+
+.menu_orange_text {
+    color: #F25822;
+}
+
+/* content area */
+
 
 .content {
-    padding-top: 60px;
+    display: flex;
+    padding-top: 44px;
     padding-bottom: 162px;
 }
 
-.cont__title {
-    /* font-size: 60px;
+.content_h1 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;*/
-    margin-top: 10px;
-    margin-bottom: 10px;
+    line-height: normal;
 }
 
-.cont__sub__title {
-    margin-top: 7px;
-    margin-bottom: 20px;
-    /*font-size: 20px;
+.content_p {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;*/
+    line-height: normal;
+    margin-bottom: 37px;
+    margin-top: 17px;
 }
 
-.cont__text__button {
-    margin-top: 10px;
-    padding-top: 30px;
-}
-
-.but__start {
-    margin: 7px;
-    /* font-size: 15px;
+.but_start {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;*/
+    line-height: normal;
     border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
-    width: 140px;
-    height: 50px;
+    padding: 15px 35px;
     flex-shrink: 0;
 }
 
-.but__and__text {
-    margin: 15px;
+.button_text {
     color: #AAA;
-    /* font-size: 15px;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal; */
-    width: 90px;
-    height: 19px;
-    flex-shrink: 0;
-}
-
-.content__png {
-    margin-top: 20px;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    line-height: normal;
+    margin-left: 72px;
 }
 
 .brand__area {
+    display: inline-block;
+    justify-content: center;
     padding-top: 97px;
     padding-bottom: 97px;
 }
