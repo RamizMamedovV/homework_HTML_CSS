@@ -8,10 +8,6 @@ a {
     text-decoration: none;
 }
 
-body {
-    background: #9d9898;
-}
-
 .center {
     padding-left: calc(50% - 1170px/2);
     padding-right: calc(50% - 1170px/2);
@@ -21,7 +17,13 @@ body {
     display: flex;
     padding-top: 40px;
     padding-bottom: 40px;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_logo {
+    display: flex;
+    gap: 14px;
     align-items: center;
 }
 
@@ -61,9 +63,13 @@ body {
     display: flex;
     padding-top: 44px;
     padding-bottom: 162px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 41px;
 }
 
-.content_h1 {
+.content_text_h1 {
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 60px;
@@ -72,7 +78,7 @@ body {
     line-height: normal;
 }
 
-.content_p {
+.content_text_p {
     color: #888;
     font-family: Gilroy-Medium;
     font-size: 20px;
@@ -108,8 +114,10 @@ body {
 }
 
 .brand__area {
-    display: inline-block;
-    justify-content: center;
+    display: flex;
+    gap: 47px;
+    align-items: center;
+    justify-content: space-between;
     padding-top: 97px;
     padding-bottom: 97px;
 }
