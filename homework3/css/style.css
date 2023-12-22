@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 .center {
     padding-left: calc(50% - 1170px/2);
     padding-right: calc(50% - 1170px/2);
@@ -19,6 +23,7 @@ a {
     padding-bottom: 40px;
     justify-content: space-between;
     align-items: center;
+    gap: 346px;
 }
 
 .menu_logo {
@@ -74,7 +79,7 @@ a {
     font-family: Gilroy-Bold;
     font-size: 60px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: normal;
 }
 
@@ -116,8 +121,36 @@ a {
 .brand__area {
     display: flex;
     gap: 47px;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding-top: 97px;
     padding-bottom: 97px;
+}
+
+@media (max-width: 1024px) {
+    /*для планшнта*/
+body {
+    background: #6d6969;
+}
+
+.content_text_h1 {
+    color: #23e25f;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 17px;
+    margin-top: 7px;
+}
+
+.content_text_p {
+    color: #e51e1e;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin-bottom: 17px;
+    margin-top: 7px;
+}
 }
