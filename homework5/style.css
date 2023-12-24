@@ -1,0 +1,171 @@
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/*FEATURES REGION*/
+
+.features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 30px;
+}
+
+.center {
+    padding-left: calc(50% - 1170px/2);
+    padding-right: calc(50% - 1170px/2);
+}
+
+.features1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px 30px 25px;
+}
+
+.features_h3 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+.features_p {
+    font-family: Gilroy-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    max-width: 310px;
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.features_a {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 16.5px */
+}
+
+.features_shadow {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+
+/*SERVICES REGION*/
+
+.services {
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 54px;
+    padding-top: 92px;
+    padding-bottom: 100px;
+}
+
+/*services_title area*/
+
+.services_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+}
+
+.services_title_h1 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.services_title_p {
+    max-width: 682px;
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    text-align: center;
+    font-size: 16px;
+}
+
+/* services triple area*/
+
+.services_triple {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.services_1_2_3 {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services_h3 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+
+
+.services_p {
+    font-family: Gilroy-Regular;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 22.5px */
+    max-width: 310px;
+    color: #AAA;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 39px;
+}
+
+.btn {
+    background: #F25822;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+.services_button {
+    color: #FFF;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 19.5px */
+    border: none;
+}
