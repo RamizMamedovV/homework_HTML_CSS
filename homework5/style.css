@@ -1,10 +1,42 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+
+/*FONTS*/
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("./fonts/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+    }
+    
+    @font-face {
+    font-family: "Gilroy-Medium";
+    src: url("./fonts/GilroyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+    @font-face {
+    font-family: "Gilroy-Regular";
+    src: url("./fonts/GilroyRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    }
+    
+    @font-face {
+    font-family: "Gilroy-SemiBold";
+    src: url("./fonts/GilroySemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
 * {
     border: none;
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
-
 /*FEATURES REGION*/
 
 .features {
@@ -30,6 +62,10 @@
     padding: 40px 30px 25px;
 }
 
+.features_icon {
+    margin-bottom: 25px;
+}
+
 .features_h3 {
     color: #000;
     font-family: Gilroy-Bold;
@@ -37,7 +73,6 @@
     font-weight: 400;
     line-height: normal;
     font-size: 24px;
-    margin-top: 25px;
     margin-bottom: 17px;
 }
 
@@ -120,7 +155,7 @@
     gap: 30px;
 }
 
-.services_1_2_3 {
+.services_item {
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
