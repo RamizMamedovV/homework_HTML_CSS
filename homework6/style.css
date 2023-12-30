@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+
+
+.center {
+    padding-left: calc(50% - 1140px/2);
+    padding-right: calc(50% - 1140px/2);
+}
+
+/*region header header */
+
+.header {
+    background: #222;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 19px;
+}
+
+.header_logo {
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.header_nav {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+/*region aside top*/
+
+.top {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+    background: #F1E4E6;
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.top_content_txt {
+    border-left: 12px solid #F16D7F;
+    padding-left: 15px;
+    margin-bottom: 120px;
+}
+
+.top_h1 {
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.top_h2 {
+    color: #222;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.color_txt {
+    color: #F16D7F;
+}
+
+/*region main offer */
+
+.offer {
+    padding-top: 65px;
+    padding-bottom: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 260px 180px;
+    gap: 30px;
+}
+
+.offer_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* background-blend-mode: overlay; */
+    /* background: rgba(33, 22, 22, 0.70); */
+}
+
+.offer_big_item {
+    grid-column: 1/span 3;
+}
+
+.offer_txt_h4 {
+    position: absolute;
+    z-index: 1;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.offer_txt_span {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.offer_img {
+    width: auto;
+    /* object-fit: cover; */
+    position: inherit;
+    z-index: -1;
+}
+
+/*region section feature*/
+
+.feature_header {
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.feature_h2 {
+    color: #222;
+    font-size: 30px;
+    line-height: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feature_p {
+    color: #9F9F9F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 17px;
+}
+
+.feature_grid {
+    padding-top: 48px;
+    display: grid;
+    /* НЕ РАБОТАЕТ 
+    grid-template-columns: repeat(auto-fit, 360px)*/
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 581px; */
+    gap: 30px;
+}
+
+.feature_item {
+    display: flex;
+    flex-direction: column;
+    /* object-fit: cover; */
+    background-color: #F8F8F8;
+}
+
+.feature_item_img {
+    width: 100%;
+}
+
+.item_1_2 {
+    height: 420px;
+    background-color: #F0ECEC;
+    ;
+}
+
+.feature_txt {
+    padding: 25px 29px 19px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.feature_h5 {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feature_item_p {
+    color: #5D5D5D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.feature_price {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feature_footer {
+    padding-top: 48px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.feature_footer_border {
+    width: 211px;
+    height: 47px;
+    padding: 15px 39px;
+    border: 0.5px solid #F16D7F;
+    /* padding: 14.5px 38,5px 13.5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature_footer_but {
+    border: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
