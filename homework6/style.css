@@ -348,12 +348,15 @@ svg:hover path {
     }
 
     /*region aside top*/
+
+    .top {
+        padding-top: 148px;
+        padding-bottom: 149px;
+        justify-content: center;
+    }
     
     .top_content_img {
         display: none;
-    }
-    
-    .top_content_txt {
     }
     
     .top_h1 {
@@ -367,9 +370,6 @@ svg:hover path {
     /*region aside offer */
     
     .offer {
-        padding-bottom: 32px;
-        padding-left: 0;
-        padding-right: 0;
         display: flex;
         flex-direction: column;
         /* grid-template-rows: 260px 180px; */
