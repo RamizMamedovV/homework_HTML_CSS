@@ -282,7 +282,11 @@ svg:hover path {
 
 
 .feature_footer {
+    padding-top: 103px;
+    padding-bottom: 104px;
     display: flex;
+    flex-direction: row;
+    gap: 30px;
     justify-content: space-around;
     background: #222224;
 }
@@ -290,20 +294,20 @@ svg:hover path {
 .feature_footer_item {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    padding-top: 103px;
-    padding-bottom: 104px;
+    gap: 16px;
 }
 
-.margin28 {
+.feature_footer_item_h5_1_margin28 {
     margin-top: 28px;
 }
 
-.margin19 {
+.feature_footer_item_h5_2_margin19 {
     margin-top: 19px;
 }
 
-.margin25 {
+.feature_footer_item_h5_3_margin25 {
     margin-top: 25px;
 }
 
@@ -325,6 +329,7 @@ svg:hover path {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    max-width: 82%;
 }
 
 
@@ -332,33 +337,15 @@ svg:hover path {
 
 
 .subscribe {
-    padding-left: calc(50% - 570px);
-    padding-right: calc(50% - 570px);
-    position: relative;
-    background: rgba(244, 244, 244, 0.70);
-    z-index: 0;
-    /* height: auto; */
-}
-
-.subscribe_div {
-    position: absolute;
-    top: 0;
+    background: linear-gradient(rgba(244, 244, 244, 0.70), rgba(244, 244, 244, 0.70)), url(./img/subscribe.png);
+    min-height: 448px;
+    background-size: cover;
+    padding-top: 97px;
+    padding-bottom: 126px;
     display: flex;
-    gap: 350px;
+    gap: 327px;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-}
-
-.subscribe_div_img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    z-index: -1;
+    align-items: center;
 }
 
 .subscribe_left {
@@ -441,15 +428,16 @@ svg:hover path {
 .footer {
     background: #000;
     height: 79px;
-}
-
-.footer_div {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 24px;
     padding-bottom: 23px;
 }
+
+/* .footer_div {
+} */
 
 .footer_h3 {
     color: #FBFBFB;
@@ -483,15 +471,7 @@ svg:hover path {
     fill: #FFF;
 }
 
-
-
-@media (min-width: 1024px) and (max-width: 1060px) {
-    /*region aside subscribe*/
-
-    .subscribe_div {
-        gap: 313px;
-    }
-}
+/*region media*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
@@ -561,20 +541,29 @@ svg:hover path {
         margin: 32px auto 70px auto;
     }
 
+
     .feature_footer {
         flex-direction: column;
+        padding-top: 48px;
+        padding-bottom: 64px;
+        gap: 48px;
+    }
+
+    .feature_footer_item_p {
+        max-width: 41%;
     }
 
     /*region aside subscribe*/
 
-    .subscribe_div {
+    .subscribe {
         padding-top: 64px;
-        padding-bottom: 225px;
+        padding-bottom: 146px;
         flex-direction: column;
+        gap: 48px;
     }
 
     .subscribe_left {
-        margin-bottom: 48px;
+        gap: 30px;
     }
 
     .subscribe_right_h4 {
@@ -622,31 +611,12 @@ svg:hover path {
     .offer {
         display: flex;
         flex-direction: column;
-        /* grid-template-rows: 260px 180px; */
         gap: 32px;
     }
-
-    /* .offer_item {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative; */
-    /* background-blend-mode: overlay; */
-    /* background: rgba(33, 22, 22, 0.70); */
-    /* } */
 
     .offer_big_item {
         grid-column: 1fr;
     }
-
-    /* .offer_img {
-        width: 100%;*/
-    /* object-fit: cover; */
-    /*position: inherit;
-        z-index: -1;
-    } */
-
-    /*region section feature*/
 
     .feature_header {
         padding-top: 32px;
@@ -668,6 +638,47 @@ svg:hover path {
 
     .feature_txt {
         padding: 25px 29px 19px 18px;
+    }
+
+
+    .feature_footer {
+        flex-direction: column;
+        padding-bottom: 81px;
+        gap: 46px;
+
+    }
+
+    .feature_footer_item_p {
+        max-width: 100%;
+    }
+
+    /*region aside subscribe*/
+
+    .subscribe {
+        padding-top: 64px;
+        padding-bottom: 109px;
+        flex-direction: column;
+        gap: 59px;
+    }
+
+    .subscribe_left {
+        gap: 29px;
+    }
+
+
+    .subscribe_right_h2 {
+        margin-bottom: 8px;
+    }
+
+    .subscribe_right_h4 {
+        margin-bottom: 22px;
+    }
+
+    .footer {
+        padding-top: 43px;
+        padding-bottom: 9px;
+        flex-direction: column-reverse;
+        gap: 40px;
     }
 
 }
