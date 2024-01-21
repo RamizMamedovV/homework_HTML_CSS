@@ -337,7 +337,10 @@ svg:hover path {
 
 
 .subscribe {
-    background: linear-gradient(rgba(244, 244, 244, 0.70), rgba(244, 244, 244, 0.70)), url(./img/subscribe.png);
+    /* background: linear-gradient(rgba(244, 244, 244, 0.70), rgba(244, 244, 244, 0.70)), url(./img/subscribe.png); */
+    background-image: url(./img/subscribe.png);
+    background-color: rgba(244, 244, 244, 0.70);
+    background-blend-mode: overlay;
     min-height: 448px;
     background-size: cover;
     padding-top: 97px;
@@ -409,13 +412,14 @@ svg:hover path {
     line-height: normal;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
+    padding-left: 16px;
 }
 
 .subscribe__btn {
     background-color: #F16D7F;
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
-    padding: 7px;
+    padding: 16px 22px;
     color: #FFF;
     text-align: center;
     font-family: Lato;
