@@ -109,6 +109,7 @@ svg:hover path {
 
 .offer_big_item {
     grid-column: 1/span 3;
+    height: 100%;
 }
 
 .offer_txt_h4 {
@@ -619,7 +620,7 @@ svg:hover path {
     }
 
     .offer_big_item {
-        grid-column: 1fr;
+        min-height: 111px;
     }
 
     .feature_header {
@@ -628,12 +629,9 @@ svg:hover path {
     }
 
     .feature_grid {
-        padding-right: 8px;
-        padding-left: 8px;
         padding-top: 65px;
         display: flex;
         flex-direction: column;
-        gap: 16px;
     }
 
     .feature_item_img {
