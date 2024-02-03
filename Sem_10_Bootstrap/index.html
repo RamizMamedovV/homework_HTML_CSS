@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap_CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <h1>SCROLL_SPY</h1>
+    <section class="container">
+        <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading1">First</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">Dropdown</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                        <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+            <h4 id="scrollspyHeading1">First heading</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, omnis non? Eveniet repellat unde, hic
+                similique illum magnam vitae magni velit, reiciendis odit earum quibusdam. Hic deserunt exercitationem
+                temporibus commodi et a, ad suscipit quidem eum voluptatibus voluptatum ipsum cupiditate aperiam quas
+                eligendi ullam delectus voluptates nostrum quia similique! Totam unde numquam doloremque temporibus
+                velit amet nemo est. Dolore, explicabo libero id illo vitae nesciunt quam ad iure impedit repellendus
+                odit voluptatum, fugiat doloribus iusto sequi soluta ipsam delectus eos a quibusdam laborum, excepturi
+                rem. Numquam, nihil officiis quisquam at, magnam asperiores debitis, commodi dolor sunt culpa dolorum ut
+                soluta?</p>
+            <h4 id="scrollspyHeading2">Second heading</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti earum quidem provident exercitationem
+                minus quod magnam debitis ad velit eius, odit repudiandae sequi illum, illo fugit animi assumenda
+                dolores quisquam recusandae, sed adipisci minima rerum omnis. Minima earum tenetur libero? Nemo
+                explicabo ipsum soluta quasi inventore eos officiis in sint nostrum ea. Eius soluta suscipit deleniti,
+                cumque possimus assumenda error vero modi atque nobis reiciendis dignissimos culpa dicta molestiae, quas
+                iste. Vitae, dignissimos repellendus autem consequatur quod maxime eius esse dicta. Necessitatibus
+                eligendi nesciunt incidunt odit ducimus perferendis, veniam dignissimos laudantium rem cupiditate
+                praesentium fugit et autem id mollitia enim....</p>
+            <h4 id="scrollspyHeading3">Third heading</h4>
+            <p>...Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti earum quidem provident
+                exercitationem minus quod magnam debitis ad velit eius, odit repudiandae sequi illum, illo fugit animi
+                assumenda dolores quisquam recusandae, sed adipisci minima rerum omnis. Minima earum tenetur libero?
+                Nemo explicabo ipsum soluta quasi inventore eos officiis in sint nostrum ea. Eius soluta suscipit
+                deleniti, cumque possimus assumenda error vero modi atque nobis reiciendis dignissimos culpa dicta
+                molestiae, quas iste. Vitae, dignissimos repellendus autem consequatur quod maxime eius esse dicta.
+                Necessitatibus eligendi nesciunt incidunt odit ducimus perferendis, veniam dignissimos laudantium rem
+                cupiditate praesentium fugit et autem id mollitia enim....</p>
+            <h4 id="scrollspyHeading4">Fourth heading</h4>
+            <p>...Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti earum quidem provident
+                exercitationem minus quod magnam debitis ad velit eius, odit repudiandae sequi illum, illo fugit animi
+                assumenda dolores quisquam recusandae, sed adipisci minima rerum omnis. Minima earum tenetur libero?
+                Nemo explicabo ipsum soluta quasi inventore eos officiis in sint nostrum ea. Eius soluta suscipit
+                deleniti, cumque possimus assumenda error vero modi atque nobis reiciendis dignissimos culpa dicta
+                molestiae, quas iste. Vitae, dignissimos repellendus autem consequatur quod maxime eius esse dicta.
+                Necessitatibus eligendi nesciunt incidunt odit ducimus perferendis, veniam dignissimos laudantium rem
+                cupiditate praesentium fugit et autem id mollitia enim....</p>
+            <h4 id="scrollspyHeading5">Fifth heading</h4>
+            <p>...Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti earum quidem provident
+                exercitationem minus quod magnam debitis ad velit eius, odit repudiandae sequi illum, illo fugit animi
+                assumenda dolores quisquam recusandae, sed adipisci minima rerum omnis. Minima earum tenetur libero?
+                Nemo explicabo ipsum soluta quasi inventore eos officiis in sint nostrum ea. Eius soluta suscipit
+                deleniti, cumque possimus assumenda error vero modi atque nobis reiciendis dignissimos culpa dicta
+                molestiae, quas iste. Vitae, dignissimos repellendus autem consequatur quod maxime eius esse dicta.
+                Necessitatibus eligendi nesciunt incidunt odit ducimus perferendis, veniam dignissimos laudantium rem
+                cupiditate praesentium fugit et autem id mollitia enim....</p>
+        </div>
+    </section>
+
+    <section class="carousel_box">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../homework6/img/feature_1_1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../homework6/img/feature_1_2_.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../homework6/img/feature_1_3.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../homework6/img/feature_2_1.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
